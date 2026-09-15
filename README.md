@@ -112,7 +112,7 @@ I changed some of the coloring to really go with the color theme of the design r
 I would not rebuild one of the grids from scratch because it works well for this and keeping the frame work is a better choice because its already figured out for you.
 
 ## Live Site
-[Add your published GitHub Pages URL here.]
+[[Add your published GitHub Pages URL here.]](https://jadynb18.github.io/webworks-studio/)
 
 ## Final Reminder
 The goal is not to use as many Bootstrap classes as possible.
