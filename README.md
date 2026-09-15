@@ -100,17 +100,16 @@ Complete all three responses below. Keep each response concise and specific to *
 ## 1. Framework Choice
 **Identify one feature Bootstrap made significantly faster to implement. Briefly explain what Bootstrap provided and why that helped this project.**
 
-[Replace this text with your response.]
+I choose to use things like col-md-4 to help me organize one of the sections like the services section and i made it into 3 different cards
 
 ## 2. Adaptation
 **Identify one Bootstrap default you intentionally changed for the client. Explain what you changed and how the adaptation better supports Cedar & Stone.**
+I changed some of the coloring to really go with the color theme of the design reference
 
-[Replace this text with your response.]
-
-## 3. Professional Judgment
+## 3. Professional Judgment 
 **Identify one part of the project you would not rebuild from scratch because Bootstrap already provides an appropriate solution. Explain why keeping the framework solution is the better professional choice.**
 
-[Replace this text with your response.]
+I would not rebuild one of the grids from scratch because it works well for this and keeping the frame work is a better choice because its already figured out for you.
 
 ## Live Site
 [Add your published GitHub Pages URL here.]
