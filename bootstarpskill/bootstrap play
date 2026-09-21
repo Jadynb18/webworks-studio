@@ -18,18 +18,25 @@
       <p>plants and decor</p>
       <p>vase, pictures, </p>
     </div>
-    <div class="col-sm-4">
-      <h3>Column 2</h3>
-      <p>color theme</p>
-      <p>Sage green, burnt orangle, light pink</p>
-    </div>
-    <div class="col-sm-4">
-      <h3>Column 3</h3>        
-      <p>furniture</p>
-      <p>couch, bed, desk, chairs</p>
-    </div>
-  </div>
+    <div class="container">
+  <h2> decor</h2>
+                                           
+  <div class="dropdown">
+    <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Dropdown Example
+    <span class="caret"></span></button>
+    <ul class="dropdown-menu">
+      <li><a href="#">frames</a></li>
+      <li><a href="#">vases</a></li>
+      <li><a href="#"> shelvs</a></li>
+    </ul>
+  
+<ul
+    <div class="btn-group">
+  <button type="button" class="btn btn-primary">couch</button>
+  <button type="button" class="btn btn-primary">bed</button>
+  <button type="button" class="btn btn-primary">table</button>
 </div>
+
 
 </body>
 </html>
