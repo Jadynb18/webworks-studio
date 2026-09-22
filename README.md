@@ -1,120 +1,111 @@
-# Cedar & Stone Home Services — Week 5 Starter Project
+# Week 6 — UX Evaluation Brief
+## Hill Country Trail Guide
 
-## Project
-**Week 5 — Build with a System: Bootstrap**
+**Primary User:** Maya Torres  
+**Primary Task:** Choose a beginner-appropriate Saturday hike that can be completed in about three hours or less.
 
-WebWorks Studio is creating a responsive service page for Cedar & Stone Home Services. The client content and visual direction are supplied. Your job is to implement the approved direction using **Bootstrap 5.3**.
+---
 
-This week, use the professional workflow:
+## 1. Task Walkthrough
+Briefly describe what Maya would try to do first, what she would look for, and where she might hesitate.
 
-**Identify Requirement → Find Bootstrap Pattern → Implement → Adapt → Test**
+The first thing that maya would try to do is look for a trail that looks the most appealing. The part that she might hesitate at is not seeing images of what the trails would look like. She also might be confused about what the 620 ft means for each trail
 
-## Before You Begin
-1. Create `webworks-studio/week05-bootstrap/` inside your semester repository.
-2. Place all starter files inside that folder.
-3. Open the entire `week05-bootstrap` folder in Visual Studio Code.
-4. Open `design-reference.svg` and review the approved client direction.
-5. Preview `index.html` before editing.
-6. Review the TODO comments in `index.html`.
-7. Identify what each section needs to accomplish before choosing Bootstrap classes or components.
+---
 
-## Bootstrap Setup
-Bootstrap CSS and the Bootstrap JavaScript bundle are already connected in `index.html`.
+## 2. Five UX Findings
 
-**Do not replace the supplied Bootstrap CDN links with an older version from a tutorial.**
+Document **exactly five meaningful findings**.
 
-The starter uses Bootstrap **5.3.8**.
+### Finding 1
+**Observation:**  
+some of the information on this page may not have as much clarity as of thew actual trails
+**Evidence:**  
+it appears that it shows 620ft, 840ft, 410ft. under each trail which doesnt tell the user a whole lot of infromation
 
-Remember: Bootstrap CSS handles appearance and layout. Interactive Bootstrap components may depend on the supplied JavaScript bundle.
+**User Impact:**  
+this could affect mayas task because shes trying to find a quick hicking trip but then may face a difficult time selecting a good trail.
 
-## Required Bootstrap Work
+**Principle:**  
+for accessability theres an unclear labels that makes it difficult to complete
 
-### 1. Bootstrap Responsive Grid
-Use Bootstrap's `container → row → column` structure where appropriate.
+**Priority:** Low / Medium / High
+medium
+**Recommendation:**  
+Give each trail exapmle images of each trail so the user can make a desicion on what trail to select
 
-Choose responsive behavior intentionally. Test the page at narrow, medium, wide, and in-between viewport widths rather than assuming Bootstrap's defaults automatically produce the best layout.
+### Finding 2
+**Observation:**  
+on the find a trail with the tabs of easy, moderate, or hard there should be a highlighted selection of which one you want to look for 
+**Evidence:**  
+the buttons dont move or have any type of interactive element
+**User Impact:** 
+this does help the user because it wont narrow down what she wants to select 
+**Principle:**  
+the accesability in this is not very good as you can't interact with it
+**Priority:**  
+low
+**Recommendation:**  
+Give these buttoms more interactive so the user can select the best opttion for them
 
-### 2. Required Component: Responsive Navbar
-Convert the supplied header/navigation into a Bootstrap **Navbar**.
+### Finding 3
+**Observation:** 
+can't access any of the tabs on the nav bar at the very top they dont go to anything 
+**Evidence:**  
+when attempting to click trails, conditions, tips, or about iut doesnt do anything
+**User Impact:**  
+this could affext the user because if she need to know the condictions and tips as a new hiker she cant access that.
+**Principle:**  
+controls that cant be used that prevents user completion.
+**Priority:** 
+medium 
+**Recommendation:**  
+make these elemenmts interactive and user friendly
 
-The navigation must:
-- display appropriately on larger screens;
-- collapse at smaller viewport widths;
-- use Bootstrap's documented collapse behavior;
-- remain keyboard usable; and
-- retain required Bootstrap structure and accessibility attributes.
+### Finding 4
+**Observation:**  
+missing links to certin pages
+**Evidence:**  
+the button "view all 24 trails" does not show the trails it says there is
+**User Impact:**  
+the user can't explore all the other options of trails especially if maya is a ne hiker
+**Principle:**  
+unclear link text that makes navigation harder to understand
+**Priority:**  
+medium
+**Recommendation:**  
+create a workinng link for all of the trails on one page
 
-Use the official Bootstrap documentation to identify an appropriate navbar pattern. Adapt the documented pattern to Cedar & Stone rather than rebuilding responsive navigation from scratch.
+### Finding 5
+**Observation:**  
+some of the text size on this page is very small and kinda hard to read.
+**Evidence:**  
+underneath find a trail and in the boxed for each trail that say their difficulty
+**User Impact:**  
+the usert may not have good eyesight and might miss those small important details.
+**Principle:**  
+low text makes important info difficult to perceive
+**Priority:** 
+high 
+**Recommendation:**  
+Make the text a tad bit bigger so the user casn see the levels of difficulty of the trails
 
-### 3. Required Component: Cards
-Convert the three service offerings into Bootstrap **Cards**.
+---
 
-The cards should:
-- use a consistent structure;
-- respond appropriately across viewport widths;
-- include the supplied image, category, heading, description, and link;
-- align visually as a group; and
-- use Bootstrap utilities where appropriate before adding custom CSS.
+## 3. Top Three Priorities
+Identify the three findings that should move forward into Week 7.
 
-### 4. Bootstrap Utilities
-Use Bootstrap utilities where they reasonably solve common spacing, display, alignment, sizing, gap, border, typography, and button needs.
+1. [Finding 1]
+2. [Finding 2]
+3. [Finding 5]
 
-Before writing custom CSS for a common interface behavior, ask:
+For each, briefly explain why it matters to Maya's primary task.
 
-**Does Bootstrap already provide an appropriate utility for this?**
+For finding 1 i think its important that we clarify what those numbers in ft mean to give her a better understanding 
 
-### 5. Limited Client-Specific CSS
-Use `css/custom.css` only when the Cedar & Stone brand direction requires styling that Bootstrap does not reasonably provide.
+For finding 2 having that interactive elemnt for those slecting buttons i think it important for maya to narrow down what she wants to select
 
-Appropriate custom CSS may support client-specific color, typography, or a targeted visual treatment.
+For finding 5 its important because maya might miss something if its written in small text
 
-Do not rebuild Bootstrap's grid, cards, buttons, or common utility behavior in your custom stylesheet.
-
-## Optional Bootstrap Components
-After completing the required work, you may use another Bootstrap component if it genuinely fits an interface requirement. Possible examples include List Group, Badge, or Alert.
-
-Additional components are **not required**. Do not add a component simply because Bootstrap provides one.
-
-## Preserve
-Do not unnecessarily change the supplied client content, meaningful image alternative text, section order, working links, or client contact information.
-
-Preserve semantic HTML wherever possible. You may modify markup when necessary to implement correct Bootstrap component structure.
-
-## Test Before Handoff
-Before submitting, verify:
-- responsive behavior at narrow, medium, wide, and in-between widths;
-- navbar collapse/expand behavior;
-- all links and interactive controls;
-- keyboard operation and visible focus;
-- logical headings and semantic structure;
-- meaningful alternative text;
-- readable contrast;
-- no hidden, clipped, overlapping, or missing content.
-
-Bootstrap provides a system. It does **not** remove your responsibility to test the finished interface.
-
-# Developer Handoff — Required
-
-Complete all three responses below. Keep each response concise and specific to **your Cedar & Stone implementation**.
-
-## 1. Framework Choice
-**Identify one feature Bootstrap made significantly faster to implement. Briefly explain what Bootstrap provided and why that helped this project.**
-
-I choose to use things like col-md-4 to help me organize one of the sections like the services section and i made it into 3 different cards
-
-## 2. Adaptation
-**Identify one Bootstrap default you intentionally changed for the client. Explain what you changed and how the adaptation better supports Cedar & Stone.**
-I changed some of the coloring to really go with the color theme of the design reference
-
-## 3. Professional Judgment 
-**Identify one part of the project you would not rebuild from scratch because Bootstrap already provides an appropriate solution. Explain why keeping the framework solution is the better professional choice.**
-
-I would not rebuild one of the grids from scratch because it works well for this and keeping the frame work is a better choice because its already figured out for you.
-
-## Live Site
-https://jadynb18.github.io/webworks-studio/
-
-## Final Reminder
-The goal is not to use as many Bootstrap classes as possible.
-
-**Identify → Find → Implement → Adapt → Test → Handoff → Deliver**
+## Week 7 Handoff
+Week 7 will turn your top three priorities into interface requirements, wireframes, and a prototype.
