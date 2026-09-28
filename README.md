@@ -35,7 +35,7 @@ this allows maya to view all the other oprions of trails she can hike on
 **Week 6 problem:**  
 missing information and not clear info.
 **Design requirement:**  
-make wording better to uinderstand and maker it simple
+make wording better to understand and make it simple
 **How this helps Maya:**  
 this helps maya know what shes getting herself into and so she knows exactly how long the trails might take and how far they are
 ---
