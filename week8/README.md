@@ -50,4 +50,5 @@ i improvede the accessibility behavior by adding aria-contronls to the state of 
 ---
 
 ## Live Site
-[Add GitHub Pages URL here.]
+file:///Users/jadynbrown/Documents/GitHub/IMED2315/week08-javascript%202/index.html?trail=Painted+Bluff+Trail&experience=Some+experience&hours=4&confirm=on
+
