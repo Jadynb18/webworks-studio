@@ -41,13 +41,7 @@ this helps maya know what shes getting herself into and so she knows exactly how
 ---
 
 ## 3. Figma Prototype Link
-This is my mobile link 
- 
-https://www.figma.com/proto/iRPrZ4Gx0q0UFjqmMo7NoC/Wireframe?node-id=19-786&p=f&viewport=29%2C-1077%2C2&t=TPf9Mk8xODyg3I0J-1&scaling=scale-down&content-scaling=fixed&page-id=19%3A785&starting-point-node-id=19%3A786
-
-This is my desktop link
-
-https://www.figma.com/proto/iRPrZ4Gx0q0UFjqmMo7NoC/Wireframe?node-id=3-39&viewport=184%2C193%2C0.5&t=0gEmU4TvMl0Wq9z7-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=3%3A39&page-id=0%3A1
+https://www.figma.com/design/iRPrZ4Gx0q0UFjqmMo7NoC/Wireframe?node-id=19-785&p=f&t=mU9DEVQ64s2YEWFl-0
 
 
 
