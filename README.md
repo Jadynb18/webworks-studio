@@ -212,16 +212,16 @@ I adapted this by getting those questions for exmple the "Can you bring pets?"
 
 # Final Check
 
-- [yes ] `npm run build` completes.
+- [yes] `npm run build` completes.
 - [yes] Tailwind styles load.
-- [yes ] Alpine interaction works.
-- [yes ] Preline component works.
-- [yes ] They solve different needs.
+- [yes] Alpine interaction works.
+- [yes] Preline component works.
+- [yes] They solve different needs.
 - [yes] Keyboard testing works.
-- [yes ] Responsive testing is complete.
-- [yes ] Console has no unresolved errors.
-- [ yes] README is complete.
-- [ ] `css/output.css` is committed.
-- [ ] `js/vendor/preline.js` is committed.
-- [ ] `node_modules` is not committed.
-- [ ] Work is pushed to GitHub.
+- [yes] Responsive testing is complete.
+- [yes] Console has no unresolved errors.
+- [yes] README is complete.
+- [yes] `css/output.css` is committed.
+- [yes] `js/vendor/preline.js` is committed.
+- [yes] `node_modules` is not committed.
+- [yes] Work is pushed to GitHub.
