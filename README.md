@@ -166,7 +166,7 @@ I felt that the user needed a way to sorta filter out the different markets if t
 used the x-data to keep the specific market category and to used the x-show to show or hide the different market cards
 
 **Why Alpine was appropriate:**  
-i feel that Alpine wasd importanmt because it really helped add those cool user interacxtive features
+i feel that Alpine wasd important because it really helped add those cool user interacxtive features
 
 ## Preline Decision
 
