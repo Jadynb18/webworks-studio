@@ -71,15 +71,15 @@ I feel that working with react components is different from manipulating the DOM
 
 # Final Handoff Check
 
-- [ ] My project folder is named `week10-react`
-- [ ] I used the supplied React/Vite project
-- [ ] `ServiceCard.jsx` exists
-- [ ] I used props
-- [ ] I used `map()`
-- [ ] I used stable keys
-- [ ] I used `useState()`
-- [ ] I used React event handling
-- [ ] I used native buttons for filters
-- [ ] `node_modules` is not committed
-- [ ] My README is complete
-- [ ] I committed and pushed the completed project
+- [yes] My project folder is named `week10-react`
+- [yes] I used the supplied React/Vite project
+- [yes] `ServiceCard.jsx` exists
+- [yes] I used props
+- [yes] I used `map()`
+- [yes] I used stable keys
+- [yes] I used `useState()`
+- [yes] I used React event handling
+- [yes] I used native buttons for filters
+- [yes] `node_modules` is not committed
+- [yes] My README is complete
+- [yes] I committed and pushed the completed project
