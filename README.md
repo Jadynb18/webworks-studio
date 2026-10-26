@@ -8,7 +8,7 @@
 
 Briefly summarize what you configured in WordPress.
 
-What i congigured in this wordpress was creating pages and new post with reusable content. I also added a navigation to the top to keep it more organized.
+What i configured in this wordpress was creating pages and new post with reusable content. I also added a navigation to the top to keep it more organized.
 
 ---
 
