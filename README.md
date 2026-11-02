@@ -23,8 +23,9 @@ The southtown brand palette and typography were used site-wide
 **Location:**  
 WordPress global styles and theme-levels
 **Change:**  
-[What did you change?]
+
 i changed the global color palette which were 
+
 southtown deep #17313f
 
 southtown Teal #2b7a70
