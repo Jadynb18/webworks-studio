@@ -1,194 +1,175 @@
-# Week 11: Build for Content — WordPress & CMS Fundamentals
-
-## CMS Project Overview
+# Week 12: Customize the Experience — WordPress Development
 
 **Client:** Southtown Community Arts  
-**Role:** Junior Web / CMS Specialist  
-**Week:** 11 — Build for Content: WordPress & CMS Fundamentals
+**Role:** Junior WordPress Developer
 
-Briefly summarize what you configured in WordPress.
+## Project Overview
 
-What i configured in this wordpress was creating pages and new post with reusable content. I also added a navigation to the top to keep it more organized.
+Briefly summarize how you customized the existing Week 11 CMS without making routine content harder for the client to maintain.
 
----
-
-## WordPress Site Access
-
-**Site URL or instructor-access information:**  
-(https://susane31.sg-host.com/)
+I was able to customize the week 11 cms without changing anything by applying the approved brand colors and typography. I also used the reusable brand pattern on two different pages while keeping the original content.
 
 ---
 
-# Content Architecture
+# Customization Decisions
 
-I organized the content by information that is for all the time or infromation thats time sensitive
+Document the four required decisions below.
 
-## Pages
+## 1. Global Design System
 
-- **Home:** [lets the visitor explore the programs and introduced it to them]
-- **Programs:** [Shows what workshops are available like youth art  and open studio sessions]
-- **About:** [Explains to the visitor their mission and purpose for the activites]
+**Requirement:**  
 
-## Post
+The southtown brand palette and typography were used site-wide
+**Location:**  
+WordPress global styles and theme-levels
+**Change:**  
+[What did you change?]
+i changed the global color palette which were 
+southtown deep #17313f
 
-**News Post:** [News Post: Fall Workshop Registration Opens September 3]
+southtown Teal #2b7a70
 
-I feel that this content goes on this instead of a page because its time sensitive and it can possiably change often Due to constant updates.
+southtown Soft #eef5f3
+
+southtown paper #ffffff
+
+and i changed the font to monrope
+
+**Why this level:**  
+
+a global saolution was better because it applys the design across all the pages instead of having to edit each page which saves a lot of time.
+**QA:**  
+i tested the home page, programs, and the about page to make sure the content and colors stayed the same after.
 ---
 
-# Reusable Pattern
+## 2. Branded Reusable Pattern
 
-**Pattern Name:**  
-Southtown - Program Callout
-
-**Used For:**  
-i used this for a button that points the user to ther newst news 
-
-**Why a Pattern Was Appropriate:**  
-i think this content should be reusable beacause it keeps the content organized. And if it's needed in the future it can be used again.
-
----
-
-# Site-Wide Structure
+**Pattern:**  
+Southtown Program callout
 
 **Change:**  
-I changed the footer so show what the name of the organization, the location and a way to contact them.
+the changes i made were applying the colors to match the websites design theme
+**Reuse:**  
+On the Home Page and on the about page 
+**Editor value:**  
+this helps a future editor update by providing the reuse of the same structure and styling
+---
 
-**Where It Was Made:**  
-i made the change in the footer on the site
+## 3. Site-Wide Structure Customization
 
-**Why It Belongs at the Site Level:**  
-I feel that this should be across all pages becasue its important information that you would be able to find no matter the page you are on.
+**Shared area:**  
+Header and navigation
+
+**Change:**  
+i customized the header by adding padding on the top and bottom
+
+**Why this level:**  
+i feel that this change belonged because it makes adjustments in the site header easir to edit 
+**QA:**  
+The pages i checked were home, programs and about page
 
 ---
 
-# Client Update Test
+## 4. Controlled Development-Level Modification
 
-Complete `CLIENT-UPDATE.md` after the primary site build, then document the result here.
+Complete **one** option.
 
-## Supplied Update
+**Option used:**  
+targeted CSS
 
-Client requsted thats a change should be made to the community workshop description info on the program page so I changed it to workshops introduce participants to a focused medium or technique through guided, beginner-friendly practice.
+**Location:**  
+Appearance- Editor - Styles - Additional CSS
 
-## Where I Made the Update
+**Code / configuration snippet:**
 
-What WordPress content-editing area did you use?
+:foucus-visible {
+    outline: 3px solis #c7855a;
+    outline-offset: 3px;
+}
 
-i used the wordpress page editor 
+**Reason:**  
+i make a visible keyboard to help the visitors see which selected element they are viewing when on the wbesite while using a keyboard
+**Documentation:**  
+styles overview
 
-## Structure Check
-
-Did you need to modify the header, footer, navigation, template, template part, or reusable pattern? Explain.
-
-no i did not need to change and of those listed
-
-## Maintainability Result
-
-Explain how this update demonstrates that routine content can change without rebuilding the site's global structure.
-
-This shows content can change because the site structured remained the same even after updating
+**QA:**  
+i verified by testing the keyboard using the tab key
 
 ---
 
-# Accessibility & Responsive Checks
+# Visitor + Editor QA
 
+## Visitor Experience
 
-## Headings
+- [yes] I tested narrow and wide viewport behavior.
+- [yes] I checked visual consistency on more than one page.
+- [yes] I checked text/link/button contrast.
+- [yes] I verified visible keyboard focus.
+- [yes] I tested navigation and links.
+- [yes] I checked that the brand system is consistent rather than page-specific.
 
-organized pages contents that include heading
+### Visitor QA Notes
+[Briefly describe one issue you found or one important verification you made.]
+One important verification that i made was makeing sure all pages worked and were in their correct format and viewed at wide and narrow viewpoints
+## Editor Experience
 
-## Images
+- [yes] Routine content is still editable through WordPress.
+- [yes] The branded pattern is understandable to reuse/edit.
+- [yes] My customization did not move ordinary client content into code.
+- [yes] I performed one temporary routine content edit, previewed it, and restored the original content.
+- [yes] The site remained visually coherent after the editor test.
 
-looked for the content that the website has for images and use text for imformative images so the users can knows whats going on.
-
-## Links & Buttons
-
-I checked the navigation links to make sure they work so the user can see the diffrent programs when clicked on explore programs
-
-## Keyboard
-
-Users can use key board to navagte through website 
-
-## Responsive Layout
-
-i reviewed the websites page through desktop, phone annd tablet to make sure the format didn't change
+### Editor QA Notes
+the update i tested was updating a sentence then saving it. The changing it back to its original sentence and saving it one again. 
 
 ---
 
 # Evidence
 
-Replace the files in the `evidence/` folder with your own screenshots using the exact required filenames.
+Use the exact filenames below.
 
-## Home Page
+## Customized Home
 
-![Completed Home page](evidence/home-page.png)
+![Customized Home page](evidence/home-customized.png)
 
-## Programs Page
+## Customized Programs
 
-![Completed Programs page](evidence/programs-page.png)
+![Customized Programs page](evidence/programs-customized.png)
 
-## News Post
+## Branded Reusable Pattern
 
-![Published News post](evidence/news-post.png)
+![Branded reusable pattern](evidence/branded-pattern.png)
 
-## Primary Navigation
+## Responsive / Mobile View
 
-![Primary site navigation](evidence/navigation.png)
+![Responsive customized site](evidence/mobile-customized.png)
 
-## Reusable Pattern
+## Editor Maintainability Test
 
-![Reusable pattern in WordPress](evidence/reusable-pattern.png)
-
-## Narrow-Screen / Mobile View
-
-![Responsive WordPress page at a narrow viewport](evidence/mobile-page.png)
+![Editor maintainability evidence](evidence/editor-maintainability.png)
 
 ---
 
-# Developer Handoff
+# Maintainability Reflection
 
-Keep each response concise and specific to this project.
+Write approximately **75–100 words** responding to:
 
-## CMS Choice
+> Give one example of a change you intentionally handled globally and one change you intentionally left as editable content. How does that separation help Southtown Community Arts maintain the site without losing design consistency?
 
-Why is WordPress an appropriate solution for Southtown Community Arts?
-
-Word press is an appropriate solution for Southtown community arts, because the staff can update the website easily without having to deal with code. And they can feel more organized.
-
-## Editable Content
-
-What information should Southtown Community Arts staff be able to update routinely?
-
-the staff should be able to update workshop info, registation, annocuments and new post
-
-## Reusable Structure
-
-What site element did you make reusable or site-wide, and why?
-
-the element i make reusable was a callout pattern which helps keep repeated info and contest consistent. And fixed the footer so the cintact info can stay the same across all the pages.
-
-## Client Protection
-
-What design or architecture decision helps the site remain consistent when staff members make routine updates?
-
-I feel that the blocks in Wordpress and the reusable patterns provides consistancy throught the website and the staff can easliy change withing without messing up the layout
+while i worked on this project, it helped me learn and undertand how global styles can change the look of something without completley ruining the contents of the whole website. And not have to edit each page separetly. I really liked that i can change the colors across all pages so easily to keep the design of southtown community arts website the same. One thing i left intentionally editable was the programs descriptions. This allows them to make adjustments to their programes if needed.
 
 ---
 
 # Final Handoff Check
 
-- [yes] Home, Programs, and About are published as Pages.
-- [yes] The supplied announcement is published as a Post.
-- [yes] Primary navigation works in the required order.
-- [yes] One meaningful reusable Pattern is present.
-- [yes] The required site-wide structure adjustment is complete.
-- [yes] I completed the supplied `CLIENT-UPDATE.md` request after the main build.
-- [yes] The client update did not require unnecessary global-structure changes.
-- [yes] Headings are logical.
-- [yes] Informative images have meaningful alternative text.
-- [yes] Link and button labels are understandable.
-- [yes] Keyboard focus is visible.
-- [yes] Narrow-screen behavior was checked.
-- [yes] All six evidence images display correctly in this README.
-- [yes] All four Developer Handoff responses are complete.
-- [ ] I committed and pushed this Week 11 handoff folder.
+- [yes] I continued the Week 11 Southtown site rather than rebuilding it.
+- [yes] I applied the approved palette and typography direction systematically.
+- [yes] I used global controls for global decisions.
+- [yes] I created or significantly customized one branded reusable pattern.
+- [yes] I made one appropriate site-wide structure customization.
+- [yes] I completed exactly one controlled development-level modification.
+- [yes] I did not add PHP, plugins, custom blocks, or a child-theme build for this assignment.
+- [yes] Visitor and editor QA are complete.
+- [yes] All five evidence screenshots display in this README.
+- [yes] I completed the maintainability reflection.
+- [yes] I committed and pushed the Week 12 handoff folder.
