@@ -20,7 +20,7 @@ The Hill country coffee is a texas company that askes for a modern website that 
 ## Live Development Site
 
 **GitHub Pages URL:**  
-(https://github.com/Jadynb18/webworks-studio)
+(https://jadynb18.github.io/webworks-studio/week14-hill-country-coffee/hill-country-coffee-week14/?utm_source=chatgpt.com)
 
 Test this URL before submitting.
 
